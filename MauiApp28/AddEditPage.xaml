@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiApp28.AddEditPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Add Edit Page"
+    BackgroundColor="White">
+    <VerticalStackLayout>
+        <ScrollView>
+            <VerticalStackLayout Spacing="16">
+                <Grid MinimumHeightRequest="64">
+                    <Entry Placeholder="Name" />
+                </Grid>
+
+                <Grid MinimumHeightRequest="64">
+                    <Entry Placeholder="Address" />
+                </Grid>
+
+                <Grid MinimumHeightRequest="64">
+                    <Entry Placeholder="Mobile" />
+                </Grid>
+
+                <Grid MinimumHeightRequest="64">
+                    <Entry Placeholder="Email" />
+                </Grid>
+
+                <Grid MinimumHeightRequest="64">
+                    <Entry Placeholder="Date Of Birth" />
+                </Grid>
+
+                <Button Text="Close" Clicked="Button_Clicked" ></Button>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+
+    </VerticalStackLayout>
+</ContentPage>
